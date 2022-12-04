@@ -1,0 +1,204 @@
+body{
+    background:linear-gradient(to right, #78a7ba 0%, #385D6C 50%, #78a7ba 99%);
+    font-family:'Times New Roman', Times, serif ;
+}
+/*---------Header-----------*/
+.header{
+    width: auto;
+    height: 100px;
+    background-color: #EFF0F1;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 9px;
+}
+
+.logo{
+margin-left: 3%;
+float: left;    
+}
+.logo img{
+    height: 85px;
+    width: 82px;
+    
+
+}
+.header h1{
+    color: #666;
+    text-align: center;
+    float: none;
+
+}
+sub{
+    font-size: 20px;
+    color: blue;
+}
+/*----------Navigation----------*/
+.navbar{
+   
+    float:inline-start;
+    width: 20%;
+   
+    margin-top: 6%;
+}
+
+
+.navbar li {
+    list-style: none;
+    display: block;
+    padding: 10px;
+    background: rgb(100, 98, 98);
+}
+.navbar li:hover{
+    border: 1px solid black;
+    border-radius: 5%;
+    color: blue;
+} 
+
+.navbar nav{
+    margin-right: 5%;
+    text-align: center;
+   
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+/*---------body-----------*/
+.cor-right{
+    float: right;
+    border: 1px solid black;
+}
+
+.content{
+    margin-top: 70px;
+  
+}
+
+/*--------University Info------------*/
+ .col-1{
+    
+    width: 19%;
+    text-align: center;
+    background: rgb(100, 98, 98);
+     float: right;
+     width: 250px;
+     margin-top: -44%;
+     margin-left: auto;
+ }
+ .col-1 h2{
+    background-color: lightyellow;
+    padding-top: 5%;
+    margin-top: 0%;
+    font-weight: 400;
+ }
+ .col-1 h2:hover{
+     background:rgb(100, 98, 98) ;
+     color: white;
+ }
+ .col-1 li{
+     text-align: center;
+    list-style: none;
+ }
+ .col-1 a{
+     color: #fff;
+     text-decoration: none;
+     padding: 1%;
+ }
+ .col-1 a:hover{
+   color:blue;
+ }
+ /*--------News And Alert------------*/
+ .col-2{
+    width: 54%;
+    text-align: center;
+    float: none;
+    margin-left: 21.8%;
+    border: 1px solid black;
+    background: rgb(100, 98, 98);
+}
+.col-2 h3{
+    background-color: lightyellow;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 0%;
+    font-weight: 500;
+    text-align: center;
+   
+}
+marquee{
+ 
+    color: lightyellow;
+ 
+    
+}
+/*-------Image-------------*/
+.col-3{
+    width: 66%;
+    text-align: center;
+    float:center;
+    margin-top: -50%;
+    margin-left: 16%;
+
+}
+.col-3 img{
+    height:128px;
+    width: 126px;
+    padding: 0px;
+}
+/*---------Registon-----------*/
+.col-4{
+    margin-left: 5%;
+    text-align: center;
+    
+}
+/*---------Student corner-----------*/
+.col-5{
+    
+    width: 20%;
+    margin-top: 2%;
+    text-align: center;
+    background: rgb(100, 98, 98);
+}
+.col-5 h2{
+    background-color: lightyellow;
+    padding-top: 5%;
+    margin-top: 0%;
+    font-weight: 400;
+}
+.col-5 li{
+    list-style: none;
+}
+.col-5 a{
+    text-decoration: none;
+    color: #fff;
+    padding: 1%;
+    margin-top: 1%;
+}
+.col-5 a:hover{
+
+    color: blue;
+}
+.stu a{
+    color: red;
+}
+.stu a:hover{
+    color: yellow;
+}
+.bord{
+    display: none;
+    border: 1px solid black;
+    background: red;
+    color: #fff;
+    
+}
+
+@media  (max-width: 900px ) {
+    .header{display: none;}
+    .bord{display: block;font-family:cursive;
+        flex-direction: row;}
+}

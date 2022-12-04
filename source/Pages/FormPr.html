@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <link rel="stylesheet" href="../../style/file2.css">
+</head>
+<body>
+     <!-- form header -->
+     <form class="signup-form" action="msg.html" method="post">
+     <div class="form-header">
+        <h1>Register Form</h1>
+      </div>
+    
+        <table>
+      
+        <!-- Firstname and Lastname -->
+        <div class="form-body">
+        <tr>    
+       <td class="title"> First name <span class="req">*</span></td>
+       <td> <input type="text"  placeholder="Enter Your First name" required="required" /></td>
+       
+     
+       <td class="title"> Last name</td>
+       <td> <input type="text"   placeholder="Enter Your Last name" /></td>
+    </tr>
+  <!-- Mail -->
+    <tr>
+        <td class="title">Email <span>*</span></td>
+       <td> <input type="email"  placeholder="Enter Your Email" required="required"></td>
+    </tr>
+      <!-- Gender-->
+    <tr>
+        <td class="title"> Gender </td>
+     <TD>   <input type="radio" name="gender" value="male" > Male
+       <input type="radio" name="gender" value="female" > Female</TD>
+    </tr>
+  <!-- Address -->
+    <tr>
+       <td class="title"> Address</td>
+         <td> <textarea  cols="20" rows="4" placeholder="type something...."></textarea></td>
+    </tr>
+      <!-- Dob -->
+<tr>
+    <td class="title">DOB</td>
+    <td><input type="date" ></td>
+</tr>
+  <!-- Phome mumber-->
+ <tr>
+     <td class="title">MOBILE <span>*</span></td>
+     <td><select > <option >+91</option></select>
+    <input type="tel" 1-0 required placeholder="Enter Number"></td>
+ </tr>
+   <!-- country -->
+ <tr>
+     <td class="title">Country</td>
+     <td><select >
+         <option >India</option>
+       
+     </select></td>
+ </tr>
+  <!-- photo id -->
+ <tr>
+     <td class="title">Profile Picture</td>
+     <td><input type="file" accept=".jpeg,.png" > </td>
+ </tr>
+ <tr>
+    <td></td> <td><label> 25KB &#38; PNG/JPEG</label>  </td>
+</tr>
+
+<!-- Father's Job Detail -->
+<tr>
+  <td class="title">Father' Income source</td>
+  <td><select>
+    <option >Goverment Job</option>
+    <option >Privet Job</option>
+    <option >Buisness</option>
+    <option >other</option>
+
+  </select></td></tr>
+
+<tr><td></td>
+<td>
+  <input type="text" placeholder="Enter Your's Job Father info"></td>
+</tr>
+
+       <tr> 
+           <td class="title" > Father's Income</td>
+       <td> <input type="range" min="20" max="100" step="5" style="height:28px;width:98%;"  > </td>
+    </tr>
+    <tr>
+        <td></td> <td> <span>&#60;10k 20k 30k 40k 50k 60k 70k 80k 90k 100k&#62;</span> </td>
+    </tr>
+    <!-- About HSC-->
+       <tr>
+         <td class="title">HSC passing BORD<span>*</span></td>
+         <td> <select required>
+           <option>GBSC</option>
+           <option>CBSC</option>
+
+         </select></td>
+       </tr> 
+    <tr>
+      <td class="title" >HSC Passing Year<span>*</span></td>
+      <td><select  required>
+        <option >2012</option>
+        <option >2013</option>
+        <option >2014</option>
+        <option >2015</option>
+        <option >2016</option>
+        <option >2017</option>
+        <option >2018</option>
+        <option >2019</option>
+        <option >2020</option>
+        <option >2021</option>
+
+      </select></td>
+    </tr>
+    <!-- Age-->
+    <tr>
+      <td class="title">age <span>*</span></td>
+      <td><input type="number" required min="17" max="25"></td>
+    </tr>
+   
+   </table>
+   
+    </div>   
+
+     <!-- form-footer -->
+     <div class="form-footer">
+       <div class="msg">
+      <input type="checkbox" required> <label > you agree all required terms </label>
+        <span> * required</span></div>
+        
+        <button type="reset" class="btn">Reset</button>
+        <button type="submit" class="btn">SEND</button>
+      </div>
+    
+        </form>     
+</body>
+</html>
